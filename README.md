@@ -1,1 +1,1 @@
-# 1-n-output
+codes for c programming 
