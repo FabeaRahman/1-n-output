@@ -12,10 +12,10 @@ int main()
     area3 =a*a;/// square
     area4 =2*pie*r*(r+h);/// cylinder
     area5 =4*pie*r*r;///4*pie*pow(r,2) sphere
-    area6 =sqrt(3)/4*a*a;///shomobahu tribuj
-    area7 =b/4*sqrt(4*a*a-b*b);///shomodibahu tribuj
+    area6 =sqrt(3)/4*a*a;///Equilateral triangle.
+    area7 =b/4*sqrt(4*a*a-b*b);///sosceles triangle
     s=(a+b+c)/2;
-    area8 =sqrt(s*(s-a)*(s-b)*(s-c));///bishombahu tribuj
+    area8 =sqrt(s*(s-a)*(s-b)*(s-c));///sosceles triangle
    /* printf("The area is %f%f%f%f%f%f%f%f\n",area1,area2,area3,area4,area5,area6,area7,area8);*/
 
     printf("The area is %f\n",area1);
